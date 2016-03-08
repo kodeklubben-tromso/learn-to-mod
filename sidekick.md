@@ -74,7 +74,7 @@ angripe det! Hvis ikke det er et monster lar vi det være i fred. Husk at en
 entity kan også være et item.
 
 ```
-i instance of org.bukkit.entity.Monster
+i instanceof org.bukkit.entity.Monster
 ``` 
 
 
