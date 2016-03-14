@@ -34,11 +34,15 @@ under inn i main-funksjonen.
 ![kode](images/event.png)
 
 Utvid koden med en if-test som sjekker om meldinga som ble sendt var `stay`.
-Hvis meldingen er `stay` vil vi at hjelperen stopper opp til vi sier i fra. 
+Hvis meldingen er `stay` vil vi at hjelperen stopper opp til vi sier i fra.
+Koden du sitter igjen med kommer til å se ut som den under: 
 
+![kode](images/stay.png) 
 
 # Steg 3: Få hjelperen til å følge etter igjen når du ber han om det
-Utvid if-testen med en sjekk om du skriver `follow`. 
+Utvid if-testen med en sjekk om du skriver `follow`. Dette gjør du ved å trykke
+på tannhjulet i if-testblokka, legger inn en `else if` og legger til `message =
+"follow"`.
 
 ![](images/follow.png) 
 
@@ -54,8 +58,8 @@ Gå til mod.learntomod.com, Play > Texture Packs > Lag ny (HUSK NAVNET!) > See I
 Søk etter creeper > Klikk på Creeper > Gjør endringer > Commit Changes > Close >
 Deploy > Vent litt.... > Refresh sida. 
 
-Legg til klossen under i main-funksjonen. Husk å bytte ut url-feltet med navnet
-på din texture pack. 
+Legg til klossen helt øverst i main-funksjonen. Husk å bytte ut url-feltet med
+navnet på din texture pack. 
 
 ![](images/texture.png) 
 
@@ -82,3 +86,6 @@ i instanceof org.bukkit.entity.Monster
 
 
 # Steg 8: Utvid hjelperen! 
+Nå kan du gjøre hva du vil. Har du lyst til å legge til flere kommandoer? Vil du
+få den til å se forskjellig ut? Hva med å teleportere hjelperen til deg hvis den
+kommer seg for langt bort? 
