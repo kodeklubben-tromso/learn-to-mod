@@ -1,7 +1,8 @@
 # Paintball! 
 
 I denne oppgaven skal vi lage et multiplayer minigame! Spillet ligner litt på
-helt vanlig paintball, men vi spiller med egg og snøballer. 
+helt vanlig paintball, men vi spiller med egg og snøballer. NB: Her ligger det
+stortsett bare kode og ingen instruksjoner. 
 
 # Steg 1: Bygg en arena! 
 
@@ -33,7 +34,13 @@ Så når vi skriver `start` starter vi spillet og gir alle spillerene våpen.
 Når spillet starter må vi flytte alle spillerne til arenaen vår. Lagene må
 starte på hver sin side. 
 
-*Kode kommer.*
+Lag to nye variabler `eggSpawn` og `snowSpawn` og flytt de til hver sin side av
+arenaen. 
+
+![](images/spawnvar.png)
+
+I løkkene hvor vi deler ut våpen teleporterer vi spillerne våre. 
+![](images/teleport.png)
 
 # Steg 5: Tell poeng når spillere bli truffet av snøballer eller egg.
 
@@ -41,8 +48,11 @@ Vi trenger å holde styr på når spillere blir truffet av egg eller snøballer
 en spiller blir truffet vil vi telle opp en poengsum og flytte spilleren tilbake
 til spawnpointet til laget sitt. 
 
-*Kode kommer.*
+Lag en ny funksjon onDama som kjører når `entity_damage_by_entity` eventen
+kjøres. 
 
+![](images/ondamage-event.png) 
+![](images/ondamage.png)
 
 # Steg 6: Stopp spillet når hvert lag har fått 15 poeng. 
 Siden vi teller opp poeng kan vi stoppe spillet når ett av lagene har fått f.eks
