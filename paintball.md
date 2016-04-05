@@ -60,8 +60,13 @@ Siden vi teller opp poeng kan vi stoppe spillet når ett av lagene har fått f.e
 
 *Kode kommer.*
 
+# Steg 7: Lag noen kule effekter når noen blir truffet av en snøball eller et egg
+Det skjer jo ikke mye når noen blir truffet. Lag en tøff effekt når spillere
+blir truffet av egg eller snøballer.
 
-# Steg 7: Lag hinder på arenaen vår. 
+*kode kommer*
+
+# Steg 8: Lag hinder på arenaen vår. 
 Arenaen vår er jo helt tom. Lag noen hinder her og der for å gjøre banen mer
 spennende! 
 
