@@ -58,18 +58,25 @@ kjøres.
 Siden vi teller opp poeng kan vi stoppe spillet når ett av lagene har fått f.eks
 15 poeng. 
 
-*Kode kommer.*
+Lag en funksjon `pointCheck` som du legger helt neders, under if-testen, i
+`onDamage` funksjonen din. 
+![](images/pointcheck.png)
 
 # Steg 7: Lag noen kule effekter når noen blir truffet av en snøball eller et egg
 Det skjer jo ikke mye når noen blir truffet. Lag en tøff effekt når spillere
 blir truffet av egg eller snøballer.
 
-*kode kommer*
+Bruk `launch fireworks`-blokka inne i koden der du håndterer spillere som blir
+truffet av egg eller snøballer. 
 
-# Steg 8: Lag hinder på arenaen vår. 
+![](images/fireworks.png)
+
+
+# Steg 8: BONUS: Lag hinder på arenaen vår. 
 Arenaen vår er jo helt tom. Lag noen hinder her og der for å gjøre banen mer
 spennende! 
 
-*Kode kommer.*
+
+
 
 
